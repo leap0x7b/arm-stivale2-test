@@ -96,14 +96,14 @@ void *stivale2_get_tag(struct stivale2_struct *stivale2_struct, uint64_t id) {
     }
 }
 
-volatile unsigned int * const UART0DR = (unsigned int *) 0x09000000;
+//volatile unsigned int * const UART0DR = (unsigned int *) 0x09000000;
  
-void print_uart0(const char *s) {
-    while(*s != '\0') { 		/* Loop until end of string */
-         *UART0DR = (unsigned int)(*s); /* Transmit char */
-          s++;			        /* Next char */
-    }
-}
+//void print_uart0(const char *s) {
+//    while(*s != '\0') { 		/* Loop until end of string */
+//         *UART0DR = (unsigned int)(*s); /* Transmit char */
+//          s++;			        /* Next char */
+//    }
+//}
 
 // The following will be our kernel's entry point.
 void _start(struct stivale2_struct *stivale2_struct) {
@@ -143,13 +143,13 @@ void _start(struct stivale2_struct *stivale2_struct) {
       //ssfn_dst.y += ssfn_src->height;
       //ssfn_dst.x = 0;
     //} else {
-      ssfn_putc("H");
-      ssfn_putc("e");
-      ssfn_putc("l");
-      ssfn_putc("l");
-      ssfn_putc("o");
-      print_uart0("hello");
-    //}
+      ssfn_putc('H');
+      ssfn_putc('e');
+      ssfn_putc('l');
+      ssfn_putc('l');
+      ssfn_putc('o');
+      //print_uart0("hello");
+    //}*/
 
     //term_write("Hello World", 11);
 

@@ -1,0 +1,502 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/data/com.termux/files/home/stivale2-barebones/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(ISO_IMAGE)	Makefile	/^$(ISO_IMAGE): limine kernel\/kernel.elf$/;"	t
+$(KERNEL)	kernel/Makefile	/^$(KERNEL): $(OBJ) $(SFNOBJ)$/;"	t
+%.o	kernel/Makefile	/^%.o: %.c $/;"	t
+%.sfn.o	kernel/Makefile	/^%.sfn.o: %.sfn$/;"	t
+CACHE_CLEAN	limine/limine-install.c	/^    CACHE_CLEAN,$/;"	e	enum:__anon0a3e5da50103	file:
+CACHE_DIRTY	limine/limine-install.c	/^    CACHE_DIRTY$/;"	e	enum:__anon0a3e5da50103	file:
+CC	kernel/Makefile	/^CC = clang -target aarch64-none-elf$/;"	m
+CC	limine/Makefile	/^CC = cc$/;"	m
+CFILES	kernel/Makefile	/^CFILES := $(shell find .\/ -type f -name '*.c')$/;"	m
+CFLAGS	kernel/Makefile	/^CFLAGS = -Wall -Wextra -O2 -pipe$/;"	m
+CFLAGS	limine/Makefile	/^CFLAGS = -O2 -pipe -Wall -Wextra$/;"	m
+DESTDIR	limine/Makefile	/^DESTDIR =$/;"	m
+DIV_ROUNDUP	limine/limine-install.c	/^#define DIV_ROUNDUP(/;"	d	file:
+Font	kernel/ssfn.h	/^    class Font {$/;"	c	namespace:SSFN
+INTERNALCFLAGS	kernel/Makefile	/^INTERNALCFLAGS  :=       \\$/;"	m
+INTERNALLDFLAGS	kernel/Makefile	/^INTERNALLDFLAGS :=         \\$/;"	m
+ISO_IMAGE	Makefile	/^ISO_IMAGE = disk.iso$/;"	m
+KERNEL	kernel/Makefile	/^KERNEL := kernel.elf$/;"	m
+LD	kernel/Makefile	/^LD = ld.lld$/;"	m
+LDFLAGS	kernel/Makefile	/^LDFLAGS =$/;"	m
+LIMINE_HDD_BIN	limine/Makefile	/^LIMINE_HDD_BIN = limine-hdd.bin$/;"	m
+NULL	kernel/ssfn.h	/^#  define NULL /;"	d
+OBJ	kernel/Makefile	/^OBJ    := $(CFILES:.c=.o)$/;"	m
+PREFIX	limine/Makefile	/^PREFIX = \/usr\/local$/;"	m
+SFNFILES	kernel/Makefile	/^SFNFILES := $(shell find .\/ -type f -name '*.sfn')$/;"	m
+SFNOBJ	kernel/Makefile	/^SFNOBJ := $(SFNFILES:.sfn=.sfn.o)$/;"	m
+SSFN	kernel/ssfn.h	/^namespace SSFN {$/;"	n
+SSFN_COLLECTION	kernel/ssfn.h	/^#define SSFN_COLLECTION /;"	d
+SSFN_COMMON	kernel/ssfn.h	/^#define SSFN_COMMON$/;"	d
+SSFN_CONSOLEBITMAP_TRUECOLOR	kernel/kernel.c	/^#define SSFN_CONSOLEBITMAP_TRUECOLOR$/;"	d	file:
+SSFN_CONTOUR_CUBIC	kernel/ssfn.h	/^#define SSFN_CONTOUR_CUBIC /;"	d
+SSFN_CONTOUR_LINE	kernel/ssfn.h	/^#define SSFN_CONTOUR_LINE /;"	d
+SSFN_CONTOUR_MOVE	kernel/ssfn.h	/^#define SSFN_CONTOUR_MOVE /;"	d
+SSFN_CONTOUR_QUAD	kernel/ssfn.h	/^#define SSFN_CONTOUR_QUAD /;"	d
+SSFN_DATA_MAX	kernel/ssfn.h	/^#define SSFN_DATA_MAX /;"	d
+SSFN_ENDMAGIC	kernel/ssfn.h	/^#define SSFN_ENDMAGIC /;"	d
+SSFN_ERR_ALLOC	kernel/ssfn.h	/^#define SSFN_ERR_ALLOC /;"	d
+SSFN_ERR_BADFILE	kernel/ssfn.h	/^#define SSFN_ERR_BADFILE /;"	d
+SSFN_ERR_BADSIZE	kernel/ssfn.h	/^#define SSFN_ERR_BADSIZE /;"	d
+SSFN_ERR_BADSTYLE	kernel/ssfn.h	/^#define SSFN_ERR_BADSTYLE /;"	d
+SSFN_ERR_INVINP	kernel/ssfn.h	/^#define SSFN_ERR_INVINP /;"	d
+SSFN_ERR_NOFACE	kernel/ssfn.h	/^#define SSFN_ERR_NOFACE /;"	d
+SSFN_ERR_NOGLYPH	kernel/ssfn.h	/^#define SSFN_ERR_NOGLYPH /;"	d
+SSFN_FAMILY_ANY	kernel/ssfn.h	/^#define SSFN_FAMILY_ANY /;"	d
+SSFN_FAMILY_BYNAME	kernel/ssfn.h	/^#define SSFN_FAMILY_BYNAME /;"	d
+SSFN_FAMILY_DECOR	kernel/ssfn.h	/^#define SSFN_FAMILY_DECOR /;"	d
+SSFN_FAMILY_HAND	kernel/ssfn.h	/^#define SSFN_FAMILY_HAND /;"	d
+SSFN_FAMILY_MONOSPACE	kernel/ssfn.h	/^#define SSFN_FAMILY_MONOSPACE /;"	d
+SSFN_FAMILY_SANS	kernel/ssfn.h	/^#define SSFN_FAMILY_SANS /;"	d
+SSFN_FAMILY_SERIF	kernel/ssfn.h	/^#define SSFN_FAMILY_SERIF /;"	d
+SSFN_FRAG_BITMAP	kernel/ssfn.h	/^#define SSFN_FRAG_BITMAP /;"	d
+SSFN_FRAG_CONTOUR	kernel/ssfn.h	/^#define SSFN_FRAG_CONTOUR /;"	d
+SSFN_FRAG_HINTING	kernel/ssfn.h	/^#define SSFN_FRAG_HINTING /;"	d
+SSFN_FRAG_KERNING	kernel/ssfn.h	/^#define SSFN_FRAG_KERNING /;"	d
+SSFN_FRAG_PIXMAP	kernel/ssfn.h	/^#define SSFN_FRAG_PIXMAP /;"	d
+SSFN_ITALIC_DIV	kernel/ssfn.h	/^#define SSFN_ITALIC_DIV /;"	d
+SSFN_LIG_FIRST	kernel/ssfn.h	/^#define SSFN_LIG_FIRST /;"	d
+SSFN_LIG_LAST	kernel/ssfn.h	/^#define SSFN_LIG_LAST /;"	d
+SSFN_MAGIC	kernel/ssfn.h	/^#define SSFN_MAGIC /;"	d
+SSFN_OK	kernel/ssfn.h	/^#define SSFN_OK /;"	d
+SSFN_PIXEL	kernel/ssfn.h	/^#  define SSFN_PIXEL /;"	d
+SSFN_PREC	kernel/ssfn.h	/^#define SSFN_PREC /;"	d
+SSFN_SIZE_MAX	kernel/ssfn.h	/^#define SSFN_SIZE_MAX /;"	d
+SSFN_STYLE_ABS_SIZE	kernel/ssfn.h	/^#define SSFN_STYLE_ABS_SIZE /;"	d
+SSFN_STYLE_BOLD	kernel/ssfn.h	/^#define SSFN_STYLE_BOLD /;"	d
+SSFN_STYLE_ITALIC	kernel/ssfn.h	/^#define SSFN_STYLE_ITALIC /;"	d
+SSFN_STYLE_NOAA	kernel/ssfn.h	/^#define SSFN_STYLE_NOAA /;"	d
+SSFN_STYLE_NOCACHE	kernel/ssfn.h	/^#define SSFN_STYLE_NOCACHE /;"	d
+SSFN_STYLE_NODEFGLYPH	kernel/ssfn.h	/^#define SSFN_STYLE_NODEFGLYPH /;"	d
+SSFN_STYLE_NOHINTING	kernel/ssfn.h	/^#define SSFN_STYLE_NOHINTING /;"	d
+SSFN_STYLE_NOKERN	kernel/ssfn.h	/^#define SSFN_STYLE_NOKERN /;"	d
+SSFN_STYLE_REGULAR	kernel/ssfn.h	/^#define SSFN_STYLE_REGULAR /;"	d
+SSFN_STYLE_RTL	kernel/ssfn.h	/^#define SSFN_STYLE_RTL /;"	d
+SSFN_STYLE_STHROUGH	kernel/ssfn.h	/^#define SSFN_STYLE_STHROUGH /;"	d
+SSFN_STYLE_UNDERLINE	kernel/ssfn.h	/^#define SSFN_STYLE_UNDERLINE /;"	d
+SSFN_STYLE_USRDEF1	kernel/ssfn.h	/^#define SSFN_STYLE_USRDEF1 /;"	d
+SSFN_STYLE_USRDEF2	kernel/ssfn.h	/^#define SSFN_STYLE_USRDEF2 /;"	d
+SSFN_TYPE_FAMILY	kernel/ssfn.h	/^#define SSFN_TYPE_FAMILY(/;"	d
+SSFN_TYPE_STYLE	kernel/ssfn.h	/^#define SSFN_TYPE_STYLE(/;"	d
+SSFN_VERSION	kernel/ssfn.h	/^#define SSFN_VERSION /;"	d
+SSFN__ZFAST_BITS	kernel/ssfn.h	/^#define SSFN__ZFAST_BITS /;"	d
+SSFN__ZFAST_MASK	kernel/ssfn.h	/^#define SSFN__ZFAST_MASK /;"	d
+SSFN_free	kernel/ssfn.h	/^#    define SSFN_free /;"	d
+SSFN_memcmp	kernel/ssfn.h	/^#    define SSFN_memcmp /;"	d
+SSFN_memcmp	kernel/ssfn.h	/^#   define SSFN_memcmp /;"	d
+SSFN_memcmp	kernel/ssfn.h	/^static int SSFN_memcmp(const void *__s1, const void *__s2, size_t __n)$/;"	f	typeref:typename:int
+SSFN_memset	kernel/ssfn.h	/^#    define SSFN_memset /;"	d
+SSFN_memset	kernel/ssfn.h	/^#   define SSFN_memset /;"	d
+SSFN_memset	kernel/ssfn.h	/^static void *SSFN_memset(void *__s, int __c, size_t __n)$/;"	f	typeref:typename:void *
+SSFN_realloc	kernel/ssfn.h	/^#    define SSFN_realloc /;"	d
+STIVALE2_BOOTLOADER_BRAND_SIZE	kernel/stivale2.h	/^#define STIVALE2_BOOTLOADER_BRAND_SIZE /;"	d
+STIVALE2_BOOTLOADER_VERSION_SIZE	kernel/stivale2.h	/^#define STIVALE2_BOOTLOADER_VERSION_SIZE /;"	d
+STIVALE2_FBUF_MMODEL_RGB	kernel/stivale2.h	/^#define STIVALE2_FBUF_MMODEL_RGB /;"	d
+STIVALE2_FIRMWARE_BIOS	kernel/stivale2.h	/^#define STIVALE2_FIRMWARE_BIOS /;"	d
+STIVALE2_HEADER_TAG_5LV_PAGING_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_5LV_PAGING_ID /;"	d
+STIVALE2_HEADER_TAG_ANY_VIDEO_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_ANY_VIDEO_ID /;"	d
+STIVALE2_HEADER_TAG_FB_MTRR_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_FB_MTRR_ID /;"	d
+STIVALE2_HEADER_TAG_FRAMEBUFFER_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_FRAMEBUFFER_ID /;"	d
+STIVALE2_HEADER_TAG_SMP_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_SMP_ID /;"	d
+STIVALE2_HEADER_TAG_TERMINAL_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_TERMINAL_ID /;"	d
+STIVALE2_HEADER_TAG_UNMAP_NULL_ID	kernel/stivale2.h	/^#define STIVALE2_HEADER_TAG_UNMAP_NULL_ID /;"	d
+STIVALE2_MMAP_ACPI_NVS	kernel/stivale2.h	/^#define STIVALE2_MMAP_ACPI_NVS /;"	d
+STIVALE2_MMAP_ACPI_RECLAIMABLE	kernel/stivale2.h	/^#define STIVALE2_MMAP_ACPI_RECLAIMABLE /;"	d
+STIVALE2_MMAP_BAD_MEMORY	kernel/stivale2.h	/^#define STIVALE2_MMAP_BAD_MEMORY /;"	d
+STIVALE2_MMAP_BOOTLOADER_RECLAIMABLE	kernel/stivale2.h	/^#define STIVALE2_MMAP_BOOTLOADER_RECLAIMABLE /;"	d
+STIVALE2_MMAP_FRAMEBUFFER	kernel/stivale2.h	/^#define STIVALE2_MMAP_FRAMEBUFFER /;"	d
+STIVALE2_MMAP_KERNEL_AND_MODULES	kernel/stivale2.h	/^#define STIVALE2_MMAP_KERNEL_AND_MODULES /;"	d
+STIVALE2_MMAP_RESERVED	kernel/stivale2.h	/^#define STIVALE2_MMAP_RESERVED /;"	d
+STIVALE2_MMAP_USABLE	kernel/stivale2.h	/^#define STIVALE2_MMAP_USABLE /;"	d
+STIVALE2_MODULE_STRING_SIZE	kernel/stivale2.h	/^#define STIVALE2_MODULE_STRING_SIZE /;"	d
+STIVALE2_PMR_EXECUTABLE	kernel/stivale2.h	/^#define STIVALE2_PMR_EXECUTABLE /;"	d
+STIVALE2_PMR_READABLE	kernel/stivale2.h	/^#define STIVALE2_PMR_READABLE /;"	d
+STIVALE2_PMR_WRITABLE	kernel/stivale2.h	/^#define STIVALE2_PMR_WRITABLE /;"	d
+STIVALE2_STRUCT_TAG_CMDLINE_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_CMDLINE_ID /;"	d
+STIVALE2_STRUCT_TAG_DTB	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_DTB /;"	d
+STIVALE2_STRUCT_TAG_EDID_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_EDID_ID /;"	d
+STIVALE2_STRUCT_TAG_EFI_SYSTEM_TABLE_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_EFI_SYSTEM_TABLE_ID /;"	d
+STIVALE2_STRUCT_TAG_EPOCH_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_EPOCH_ID /;"	d
+STIVALE2_STRUCT_TAG_FB_MTRR_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_FB_MTRR_ID /;"	d
+STIVALE2_STRUCT_TAG_FIRMWARE_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_FIRMWARE_ID /;"	d
+STIVALE2_STRUCT_TAG_FRAMEBUFFER_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_FRAMEBUFFER_ID /;"	d
+STIVALE2_STRUCT_TAG_KERNEL_FILE_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_KERNEL_FILE_ID /;"	d
+STIVALE2_STRUCT_TAG_KERNEL_SLIDE_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_KERNEL_SLIDE_ID /;"	d
+STIVALE2_STRUCT_TAG_MEMMAP_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_MEMMAP_ID /;"	d
+STIVALE2_STRUCT_TAG_MMIO32_UART	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_MMIO32_UART /;"	d
+STIVALE2_STRUCT_TAG_MODULES_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_MODULES_ID /;"	d
+STIVALE2_STRUCT_TAG_PMRS_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_PMRS_ID /;"	d
+STIVALE2_STRUCT_TAG_PXE_SERVER_INFO	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_PXE_SERVER_INFO /;"	d
+STIVALE2_STRUCT_TAG_RSDP_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_RSDP_ID /;"	d
+STIVALE2_STRUCT_TAG_SMBIOS_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_SMBIOS_ID /;"	d
+STIVALE2_STRUCT_TAG_SMP_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_SMP_ID /;"	d
+STIVALE2_STRUCT_TAG_TERMINAL_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_TERMINAL_ID /;"	d
+STIVALE2_STRUCT_TAG_TEXTMODE_ID	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_TEXTMODE_ID /;"	d
+STIVALE2_STRUCT_TAG_VMAP	kernel/stivale2.h	/^#define STIVALE2_STRUCT_TAG_VMAP /;"	d
+STIVALE2_TERM_CB_BELL	kernel/stivale2.h	/^#define STIVALE2_TERM_CB_BELL /;"	d
+STIVALE2_TERM_CB_DEC	kernel/stivale2.h	/^#define STIVALE2_TERM_CB_DEC /;"	d
+_FILE_OFFSET_BITS	limine/limine-install.c	/^#define _FILE_OFFSET_BITS /;"	d	file:
+_SSFN_H_	kernel/ssfn.h	/^#define _SSFN_H_$/;"	d
+__STIVALE__STIVALE2_H__	kernel/stivale2.h	/^#define __STIVALE__STIVALE2_H__$/;"	d
+__THROW	kernel/ssfn.h	/^#  define __THROW /;"	d
+__after_framebuffer_tag	kernel/linker.ld	/^    __after_framebuffer_tag = .;$/;"	s
+__after_mtrr_tag	kernel/linker.ld	/^    __after_mtrr_tag = .;$/;"	s
+__after_smp_tag	kernel/linker.ld	/^    __after_smp_tag = .;$/;"	s
+__after_terminal_tag	kernel/linker.ld	/^    __after_terminal_tag = .;$/;"	s
+__anon0a3e5da50103	limine/limine-install.c	/^static enum {$/;"	g	file:
+__anone0f6cf650108	kernel/ssfn.h	/^typedef struct {$/;"	s
+__anone0f6cf650208	kernel/ssfn.h	/^typedef struct {$/;"	s
+__anone0f6cf650308	kernel/ssfn.h	/^typedef struct {$/;"	s
+__anone0f6cf650408	kernel/ssfn.h	/^typedef struct {$/;"	s
+__anone0f6cf650508	kernel/ssfn.h	/^typedef struct {$/;"	s
+__anone0f6cf650608	kernel/ssfn.h	/^{$/;"	s
+__anone0f6cf650708	kernel/ssfn.h	/^{$/;"	s
+__binary_limine_hdd_bin_end	limine/inc.S	/^__binary_limine_hdd_bin_end:$/;"	l
+__binary_limine_hdd_bin_start	limine/inc.S	/^__binary_limine_hdd_bin_start:$/;"	l
+__framebuffer_tag	kernel/linker.ld	/^    __framebuffer_tag = .;$/;"	s
+__mtrr_tag	kernel/linker.ld	/^    __mtrr_tag = .;$/;"	s
+__smp_tag	kernel/linker.ld	/^    __smp_tag = .;$/;"	s
+__stack_high	kernel/linker.ld	/^    __stack_high = .;$/;"	s
+__stack_low	kernel/linker.ld	/^    __stack_low = .;$/;"	s
+__stivale2_tags	kernel/linker.ld	/^    __stivale2_tags = .;$/;"	s
+__terminal_tag	kernel/linker.ld	/^    __terminal_tag = .;$/;"	s
+_binary_limine_hdd_bin_end	limine/inc.S	/^_binary_limine_hdd_bin_end:$/;"	l
+_binary_limine_hdd_bin_start	limine/inc.S	/^_binary_limine_hdd_bin_start:$/;"	l
+_device_read	limine/limine-install.c	/^static bool _device_read(void *buffer, uint64_t loc, size_t count) {$/;"	f	typeref:typename:bool	file:
+_device_write	limine/limine-install.c	/^static bool _device_write(const void *buffer, uint64_t loc, size_t count) {$/;"	f	typeref:typename:bool	file:
+_reserved0	limine/limine-install.c	/^    uint32_t _reserved0;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+_ssfn__bit_reverse	kernel/ssfn.h	/^inline static int _ssfn__bit_reverse(int v, int bits)$/;"	f	typeref:typename:int
+_ssfn__bitreverse16	kernel/ssfn.h	/^inline static int _ssfn__bitreverse16(int n)$/;"	f	typeref:typename:int
+_ssfn__compute_huffman_codes	kernel/ssfn.h	/^static int _ssfn__compute_huffman_codes(_ssfn__zbuf *a)$/;"	f	typeref:typename:int
+_ssfn__fill_bits	kernel/ssfn.h	/^static void _ssfn__fill_bits(_ssfn__zbuf *z)$/;"	f	typeref:typename:void
+_ssfn__init_zdefaults	kernel/ssfn.h	/^static void _ssfn__init_zdefaults(void)$/;"	f	typeref:typename:void
+_ssfn__parse_huffman_block	kernel/ssfn.h	/^static int _ssfn__parse_huffman_block(_ssfn__zbuf *a)$/;"	f	typeref:typename:int
+_ssfn__parse_uncompressed_block	kernel/ssfn.h	/^inline static int _ssfn__parse_uncompressed_block(_ssfn__zbuf *a)$/;"	f	typeref:typename:int
+_ssfn__parse_zlib	kernel/ssfn.h	/^static int _ssfn__parse_zlib(_ssfn__zbuf *a)$/;"	f	typeref:typename:int
+_ssfn__zbuf	kernel/ssfn.h	/^} _ssfn__zbuf;$/;"	t	typeref:struct:__anone0f6cf650708
+_ssfn__zbuild_huffman	kernel/ssfn.h	/^static int _ssfn__zbuild_huffman(_ssfn__zhuffman *z, unsigned char *sizelist, int num)$/;"	f	typeref:typename:int
+_ssfn__zdefault_distance	kernel/ssfn.h	/^static unsigned char _ssfn__zdefault_length[288], _ssfn__zdefault_distance[32];$/;"	v	typeref:typename:unsigned char[32]
+_ssfn__zdefault_length	kernel/ssfn.h	/^static unsigned char _ssfn__zdefault_length[288], _ssfn__zdefault_distance[32];$/;"	v	typeref:typename:unsigned char[288]
+_ssfn__zdist_base	kernel/ssfn.h	/^static int _ssfn__zdist_base[32] = { 1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,$/;"	v	typeref:typename:int[32]
+_ssfn__zdist_extra	kernel/ssfn.h	/^static int _ssfn__zdist_extra[32] =$/;"	v	typeref:typename:int[32]
+_ssfn__zexpand	kernel/ssfn.h	/^static int _ssfn__zexpand(_ssfn__zbuf *z, char *zout)$/;"	f	typeref:typename:int
+_ssfn__zget8	kernel/ssfn.h	/^inline static unsigned char _ssfn__zget8(_ssfn__zbuf *z)$/;"	f	typeref:typename:unsigned char
+_ssfn__zhuffman	kernel/ssfn.h	/^} _ssfn__zhuffman;$/;"	t	typeref:struct:__anone0f6cf650608
+_ssfn__zhuffman_decode	kernel/ssfn.h	/^inline static int _ssfn__zhuffman_decode(_ssfn__zbuf *a, _ssfn__zhuffman *z)$/;"	f	typeref:typename:int
+_ssfn__zhuffman_decode_slowpath	kernel/ssfn.h	/^static int _ssfn__zhuffman_decode_slowpath(_ssfn__zbuf *a, _ssfn__zhuffman *z)$/;"	f	typeref:typename:int
+_ssfn__zlength_base	kernel/ssfn.h	/^static int _ssfn__zlength_base[31] = {$/;"	v	typeref:typename:int[31]
+_ssfn__zlength_extra	kernel/ssfn.h	/^static int _ssfn__zlength_extra[31]=$/;"	v	typeref:typename:int[31]
+_ssfn__zreceive	kernel/ssfn.h	/^inline static unsigned int _ssfn__zreceive(_ssfn__zbuf *z, int n)$/;"	f	typeref:typename:unsigned int
+_ssfn_b	kernel/ssfn.h	/^static void _ssfn_b(ssfn_t *ctx, int p,int h, int x0,int y0, int x1,int y1, int x2,int y2, int x/;"	f	typeref:typename:void
+_ssfn_c	kernel/ssfn.h	/^static uint8_t *_ssfn_c(const ssfn_font_t *font, const char *str, int *len, uint32_t *unicode)$/;"	f	typeref:typename:uint8_t *
+_ssfn_fc	kernel/ssfn.h	/^static void _ssfn_fc(ssfn_t *ctx)$/;"	f	typeref:typename:void
+_ssfn_l	kernel/ssfn.h	/^static void _ssfn_l(ssfn_t *ctx, int p, int h, int x, int y)$/;"	f	typeref:typename:void
+_ssfn_zlib_decode	kernel/ssfn.h	/^char *_ssfn_zlib_decode(const char *buffer)$/;"	f	typeref:typename:char *
+_start	kernel/kernel.c	/^void _start(struct stivale2_struct *stivale2_struct) {$/;"	f	typeref:typename:void
+a	kernel/ssfn.h	/^    uint8_t a;                          \/* ascender, scaled to size *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t
+addr	kernel/stivale2.h	/^    uint64_t addr;$/;"	m	struct:stivale2_struct_tag_dtb	typeref:typename:uint64_t
+addr	kernel/stivale2.h	/^    uint64_t addr;$/;"	m	struct:stivale2_struct_tag_mmio32_uart	typeref:typename:uint64_t
+addr	kernel/stivale2.h	/^    uint64_t addr;$/;"	m	struct:stivale2_struct_vmap	typeref:typename:uint64_t
+address	kernel/stivale2.h	/^    uint64_t address;$/;"	m	struct:stivale2_struct_tag_textmode	typeref:typename:uint64_t
+all	Makefile	/^all: $(ISO_IMAGE)$/;"	t
+all	kernel/Makefile	/^all: $(KERNEL)$/;"	t
+all	limine/Makefile	/^all: limine-install$/;"	t
+alternate_lba	limine/limine-install.c	/^    uint64_t alternate_lba;$/;"	m	struct:gpt_table_header	typeref:typename:uint64_t	file:
+anchor	kernel/stivale2.h	/^    uint8_t anchor[15];$/;"	m	struct:stivale2_anchor	typeref:typename:uint8_t[15]
+ap	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+attributes	limine/limine-install.c	/^    uint64_t attributes;$/;"	m	struct:gpt_entry	typeref:typename:uint64_t	file:
+ax	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+base	kernel/stivale2.h	/^    uint64_t base;$/;"	m	struct:stivale2_mmap_entry	typeref:typename:uint64_t
+base	kernel/stivale2.h	/^    uint64_t base;$/;"	m	struct:stivale2_pmr	typeref:typename:uint64_t
+baseline	kernel/ssfn.h	/^    uint8_t     baseline;               \/* horizontal baseline in grid pixels *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t
+begin	kernel/stivale2.h	/^    uint64_t begin;$/;"	m	struct:stivale2_module	typeref:typename:uint64_t
+bg	kernel/ssfn.h	/^    uint32_t bg;                        \/* background color *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:uint32_t
+bits	kernel/stivale2.h	/^    uint8_t bits;$/;"	m	struct:stivale2_anchor	typeref:typename:uint8_t
+blit	kernel/ssfn.h	/^    uint64_t lookup, raster, blit, kern;\/* profiling accumulators *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:uint64_t
+block_size	limine/limine-install.c	/^static size_t   block_size;$/;"	v	typeref:typename:size_t	file:
+blue_mask_shift	kernel/stivale2.h	/^    uint8_t  blue_mask_shift;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+blue_mask_size	kernel/stivale2.h	/^    uint8_t  blue_mask_size;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+bootloader_brand	kernel/stivale2.h	/^    char bootloader_brand[STIVALE2_BOOTLOADER_BRAND_SIZE];$/;"	m	struct:stivale2_struct	typeref:typename:char[]
+bootloader_version	kernel/stivale2.h	/^    char bootloader_version[STIVALE2_BOOTLOADER_VERSION_SIZE];$/;"	m	struct:stivale2_struct	typeref:typename:char[]
+bsp_lapic_id	kernel/stivale2.h	/^    uint32_t bsp_lapic_id;$/;"	m	struct:stivale2_struct_tag_smp	typeref:typename:uint32_t
+bufs	kernel/ssfn.h	/^    char **bufs;                        \/* allocated extra buffers *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:char **
+bytes_per_char	kernel/stivale2.h	/^    uint16_t bytes_per_char;$/;"	m	struct:stivale2_struct_tag_textmode	typeref:typename:uint16_t
+c	kernel/ssfn.h	/^    ssfn_glyph_t ***c[17];              \/* glyph cache *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:ssfn_glyph_t *** [17]
+cache	limine/limine-install.c	/^static uint8_t *cache  = NULL;$/;"	v	typeref:typename:uint8_t *	file:
+cache_state	limine/limine-install.c	/^} cache_state;$/;"	v	typeref:enum:__anon0a3e5da50103	file:
+cached_block	limine/limine-install.c	/^static uint64_t cached_block;$/;"	v	typeref:typename:uint64_t	file:
+callback	kernel/stivale2.h	/^    uint64_t callback;$/;"	m	struct:stivale2_header_tag_terminal	typeref:typename:uint64_t
+characters_offs	kernel/ssfn.h	/^    uint32_t    characters_offs;        \/* characters table offset *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint32_t
+clean	Makefile	/^clean:$/;"	t
+clean	kernel/Makefile	/^clean:$/;"	t
+clean	limine/Makefile	/^clean:$/;"	t
+cmap_offs	kernel/ssfn.h	/^    uint32_t    cmap_offs;              \/* color map offset *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint32_t
+cmdline	kernel/stivale2.h	/^    uint64_t cmdline;$/;"	m	struct:stivale2_struct_tag_cmdline	typeref:typename:uint64_t
+code_buffer	kernel/ssfn.h	/^   uint32_t code_buffer;$/;"	m	struct:__anone0f6cf650708	typeref:typename:uint32_t
+cols	kernel/stivale2.h	/^    uint16_t cols;$/;"	m	struct:stivale2_struct_tag_terminal	typeref:typename:uint16_t
+cols	kernel/stivale2.h	/^    uint16_t cols;$/;"	m	struct:stivale2_struct_tag_textmode	typeref:typename:uint16_t
+cpu_count	kernel/stivale2.h	/^    uint64_t cpu_count;$/;"	m	struct:stivale2_struct_tag_smp	typeref:typename:uint64_t
+crc32	limine/limine-install.c	/^    uint32_t crc32;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+crc32	limine/limine-install.c	/^static uint32_t crc32(void *_stream, size_t len) {$/;"	f	typeref:typename:uint32_t	file:
+crc32_table	limine/limine-install.c	/^static const uint32_t crc32_table[] = {$/;"	v	typeref:typename:const uint32_t[]	file:
+d	kernel/ssfn.h	/^    uint8_t d;                          \/* descender, scaled to size *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t
+data	kernel/ssfn.h	/^    uint8_t data[SSFN_DATA_MAX];        \/* data buffer *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t[]
+device	limine/limine-install.c	/^static int      device = -1;$/;"	v	typeref:typename:int	file:
+device_cache_block	limine/limine-install.c	/^static bool device_cache_block(uint64_t block) {$/;"	f	typeref:typename:bool	file:
+device_flush_cache	limine/limine-install.c	/^static bool device_flush_cache(void) {$/;"	f	typeref:typename:bool	file:
+device_init	limine/limine-install.c	/^static bool device_init(void) {$/;"	f	typeref:typename:bool	file:
+device_read	limine/limine-install.c	/^#define device_read(/;"	d	file:
+device_write	limine/limine-install.c	/^#define device_write(/;"	d	file:
+disk_guid	limine/limine-install.c	/^    uint64_t disk_guid[2];$/;"	m	struct:gpt_table_header	typeref:typename:uint64_t[2]	file:
+edid_information	kernel/stivale2.h	/^    uint8_t  edid_information[];$/;"	m	struct:stivale2_struct_tag_edid	typeref:typename:uint8_t[]
+edid_size	kernel/stivale2.h	/^    uint64_t edid_size;$/;"	m	struct:stivale2_struct_tag_edid	typeref:typename:uint64_t
+end	kernel/stivale2.h	/^    uint64_t end;$/;"	m	struct:stivale2_module	typeref:typename:uint64_t
+ending_lba	limine/limine-install.c	/^    uint64_t ending_lba;$/;"	m	struct:gpt_entry	typeref:typename:uint64_t	file:
+entries	kernel/stivale2.h	/^    uint64_t entries;$/;"	m	struct:stivale2_struct_tag_memmap	typeref:typename:uint64_t
+entries	kernel/stivale2.h	/^    uint64_t entries;$/;"	m	struct:stivale2_struct_tag_pmrs	typeref:typename:uint64_t
+entry_point	kernel/stivale2.h	/^    uint64_t entry_point;$/;"	m	struct:stivale2_header	typeref:typename:uint64_t
+epoch	kernel/stivale2.h	/^    uint64_t epoch;$/;"	m	struct:stivale2_struct_tag_epoch	typeref:typename:uint64_t
+extra_argument	kernel/stivale2.h	/^    uint64_t extra_argument;$/;"	m	struct:stivale2_smp_info	typeref:typename:uint64_t
+f	kernel/ssfn.h	/^    const ssfn_font_t *f;               \/* font selected by best match *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:const ssfn_font_t *
+family	kernel/ssfn.h	/^    int family;                         \/* required family *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+fast	kernel/ssfn.h	/^   uint16_t fast[1 << SSFN__ZFAST_BITS];$/;"	m	struct:__anone0f6cf650608	typeref:typename:uint16_t[]
+features	kernel/ssfn.h	/^    uint8_t     features;               \/* format features and revision *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t
+fg	kernel/ssfn.h	/^    uint32_t fg;                        \/* foreground color *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:uint32_t
+first_usable_lba	limine/limine-install.c	/^    uint64_t first_usable_lba;$/;"	m	struct:gpt_table_header	typeref:typename:uint64_t	file:
+firstcode	kernel/ssfn.h	/^   uint16_t firstcode[16];$/;"	m	struct:__anone0f6cf650608	typeref:typename:uint16_t[16]
+firstsymbol	kernel/ssfn.h	/^   uint16_t firstsymbol[16];$/;"	m	struct:__anone0f6cf650608	typeref:typename:uint16_t[16]
+flags	kernel/stivale2.h	/^    uint32_t flags;$/;"	m	struct:stivale2_struct_tag_terminal	typeref:typename:uint32_t
+flags	kernel/stivale2.h	/^    uint64_t flags;$/;"	m	struct:stivale2_header	typeref:typename:uint64_t
+flags	kernel/stivale2.h	/^    uint64_t flags;$/;"	m	struct:stivale2_header_tag_smp	typeref:typename:uint64_t
+flags	kernel/stivale2.h	/^    uint64_t flags;$/;"	m	struct:stivale2_header_tag_terminal	typeref:typename:uint64_t
+flags	kernel/stivale2.h	/^    uint64_t flags;$/;"	m	struct:stivale2_struct_tag_firmware	typeref:typename:uint64_t
+flags	kernel/stivale2.h	/^    uint64_t flags;$/;"	m	struct:stivale2_struct_tag_smbios	typeref:typename:uint64_t
+flags	kernel/stivale2.h	/^    uint64_t flags;$/;"	m	struct:stivale2_struct_tag_smp	typeref:typename:uint64_t
+fnt	kernel/ssfn.h	/^    const ssfn_font_t *fnt[5][16];      \/* static font registry *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:const ssfn_font_t * [5][16]
+fragments_offs	kernel/ssfn.h	/^    uint16_t    fragments_offs;         \/* offset of fragments table *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint16_t
+framebuffer_addr	kernel/stivale2.h	/^    uint64_t framebuffer_addr;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint64_t
+framebuffer_bpp	kernel/stivale2.h	/^    uint16_t framebuffer_bpp;$/;"	m	struct:stivale2_header_tag_framebuffer	typeref:typename:uint16_t
+framebuffer_bpp	kernel/stivale2.h	/^    uint16_t framebuffer_bpp;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint16_t
+framebuffer_hdr_tag	kernel/kernel.c	/^static struct stivale2_header_tag_framebuffer framebuffer_hdr_tag = {$/;"	v	typeref:struct:stivale2_header_tag_framebuffer	file:
+framebuffer_height	kernel/stivale2.h	/^    uint16_t framebuffer_height;$/;"	m	struct:stivale2_header_tag_framebuffer	typeref:typename:uint16_t
+framebuffer_height	kernel/stivale2.h	/^    uint16_t framebuffer_height;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint16_t
+framebuffer_pitch	kernel/stivale2.h	/^    uint16_t framebuffer_pitch;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint16_t
+framebuffer_width	kernel/stivale2.h	/^    uint16_t framebuffer_width;$/;"	m	struct:stivale2_header_tag_framebuffer	typeref:typename:uint16_t
+framebuffer_width	kernel/stivale2.h	/^    uint16_t framebuffer_width;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint16_t
+g	kernel/ssfn.h	/^    ssfn_glyph_t *g;                    \/* current glyph pointer *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:ssfn_glyph_t *
+ga	kernel/ssfn.h	/^    ssfn_glyph_t ga;                    \/* glyph sketch area *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:ssfn_glyph_t
+goto_address	kernel/stivale2.h	/^    uint64_t goto_address;$/;"	m	struct:stivale2_smp_info	typeref:typename:uint64_t
+gpt_entry	limine/limine-install.c	/^struct gpt_entry {$/;"	s	file:
+gpt_table_header	limine/limine-install.c	/^struct gpt_table_header {$/;"	s	file:
+green_mask_shift	kernel/stivale2.h	/^    uint8_t  green_mask_shift;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+green_mask_size	kernel/stivale2.h	/^    uint8_t  green_mask_size;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+h	kernel/ssfn.h	/^    int16_t h;                          \/* height *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:int16_t
+h	kernel/ssfn.h	/^    uint8_t h;                          \/* data buffer height *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t
+h	kernel/ssfn.h	/^    uint8_t h;                          \/* height *\/$/;"	m	struct:__anone0f6cf650408	typeref:typename:uint8_t
+header_size	limine/limine-install.c	/^    uint32_t header_size;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+height	kernel/ssfn.h	/^    uint8_t     height;                 \/* overall height of the font *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t
+identifier	kernel/stivale2.h	/^    uint64_t identifier;$/;"	m	struct:stivale2_tag	typeref:typename:uint64_t
+inline	kernel/ssfn.h	/^#  define inline /;"	d
+install	limine/Makefile	/^install: all$/;"	t
+int16_t	kernel/ssfn.h	/^typedef short int           int16_t;$/;"	t	typeref:typename:short int
+kern	kernel/ssfn.h	/^    uint64_t lookup, raster, blit, kern;\/* profiling accumulators *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:uint64_t
+kernel/kernel.elf	Makefile	/^kernel\/kernel.elf:$/;"	t
+kernel_file	kernel/stivale2.h	/^    uint64_t kernel_file;$/;"	m	struct:stivale2_struct_tag_kernel_file	typeref:typename:uint64_t
+kernel_slide	kernel/stivale2.h	/^    uint64_t kernel_slide;$/;"	m	struct:stivale2_struct_tag_kernel_slide	typeref:typename:uint64_t
+kerning_offs	kernel/ssfn.h	/^    uint32_t    kerning_offs;           \/* kerning table offset *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint32_t
+lapic_id	kernel/stivale2.h	/^    uint32_t lapic_id;$/;"	m	struct:stivale2_smp_info	typeref:typename:uint32_t
+last_usable_lba	limine/limine-install.c	/^    uint64_t last_usable_lba;$/;"	m	struct:gpt_table_header	typeref:typename:uint64_t	file:
+len	kernel/ssfn.h	/^    int len[5];                         \/* number of fonts in registry *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int[5]
+lenbuf	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+length	kernel/stivale2.h	/^    uint64_t length;$/;"	m	struct:stivale2_mmap_entry	typeref:typename:uint64_t
+length	kernel/stivale2.h	/^    uint64_t length;$/;"	m	struct:stivale2_pmr	typeref:typename:uint64_t
+ligature_offs	kernel/ssfn.h	/^    uint32_t    ligature_offs;          \/* ligatures table offset *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint32_t
+limine	Makefile	/^limine:$/;"	t
+limine-install	limine/Makefile	/^limine-install: limine-install.c inc.S $(LIMINE_HDD_BIN)$/;"	t
+line	kernel/ssfn.h	/^    int line;                           \/* calculate line height *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+lookup	kernel/ssfn.h	/^    uint64_t lookup, raster, blit, kern;\/* profiling accumulators *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:uint64_t
+lx	kernel/ssfn.h	/^    int mx, my, lx, ly;                 \/* move to coordinates, last coordinates *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+ly	kernel/ssfn.h	/^    int mx, my, lx, ly;                 \/* move to coordinates, last coordinates *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+magic	kernel/ssfn.h	/^    uint8_t     magic[4];               \/* SSFN magic bytes *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t[4]
+main	limine/limine-install.c	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+max_length	kernel/stivale2.h	/^    uint64_t max_length;$/;"	m	struct:stivale2_struct_tag_terminal	typeref:typename:uint64_t
+maxcode	kernel/ssfn.h	/^   int maxcode[17];$/;"	m	struct:__anone0f6cf650608	typeref:typename:int[17]
+memmap	kernel/stivale2.h	/^    struct stivale2_mmap_entry memmap[];$/;"	m	struct:stivale2_struct_tag_memmap	typeref:struct:stivale2_mmap_entry[]
+memory_model	kernel/stivale2.h	/^    uint8_t  memory_model;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+module_count	kernel/stivale2.h	/^    uint64_t module_count;$/;"	m	struct:stivale2_struct_tag_modules	typeref:typename:uint64_t
+modules	kernel/stivale2.h	/^    struct stivale2_module modules[];$/;"	m	struct:stivale2_struct_tag_modules	typeref:struct:stivale2_module[]
+mx	kernel/ssfn.h	/^    int mx, my, lx, ly;                 \/* move to coordinates, last coordinates *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+my	kernel/ssfn.h	/^    int mx, my, lx, ly;                 \/* move to coordinates, last coordinates *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+my_lba	limine/limine-install.c	/^    uint64_t my_lba;$/;"	m	struct:gpt_table_header	typeref:typename:uint64_t	file:
+n	kernel/ssfn.h	/^    uint8_t n;                          \/* number of fragments *\/$/;"	m	struct:__anone0f6cf650408	typeref:typename:uint8_t
+next	kernel/stivale2.h	/^    uint64_t next;$/;"	m	struct:stivale2_tag	typeref:typename:uint64_t
+np	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+num_bits	kernel/ssfn.h	/^   int num_bits;$/;"	m	struct:__anone0f6cf650708	typeref:typename:int
+number_of_partition_entries	limine/limine-install.c	/^    uint32_t number_of_partition_entries;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+numbuf	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+o	kernel/ssfn.h	/^    uint8_t o;                          \/* overlap of glyph, scaled to size *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t
+ox	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+oy	kernel/ssfn.h	/^    int numbuf, lenbuf, np, ap, ox, oy, ax;$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+p	kernel/ssfn.h	/^    uint16_t *p;$/;"	m	struct:__anone0f6cf650508	typeref:typename:uint16_t *
+p	kernel/ssfn.h	/^    uint16_t p;                         \/* data buffer pitch, bytes per line *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint16_t
+p	kernel/ssfn.h	/^    uint16_t p;                         \/* pitch, bytes per line *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:uint16_t
+p	kernel/ssfn.h	/^    uint16_t p[SSFN_MAXLINES*2];$/;"	m	struct:__anone0f6cf650508	typeref:typename:uint16_t[]
+partition_entry_array_crc32	limine/limine-install.c	/^    uint32_t partition_entry_array_crc32;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+partition_entry_lba	limine/limine-install.c	/^    uint64_t partition_entry_lba;$/;"	m	struct:gpt_table_header	typeref:typename:uint64_t	file:
+partition_name	limine/limine-install.c	/^    uint16_t partition_name[36];$/;"	m	struct:gpt_entry	typeref:typename:uint16_t[36]	file:
+partition_type_guid	limine/limine-install.c	/^    uint64_t partition_type_guid[2];$/;"	m	struct:gpt_entry	typeref:typename:uint64_t[2]	file:
+permissions	kernel/stivale2.h	/^    uint64_t permissions;$/;"	m	struct:stivale2_pmr	typeref:typename:uint64_t
+phys_bss_end	kernel/stivale2.h	/^    uint64_t phys_bss_end;$/;"	m	struct:stivale2_anchor	typeref:typename:uint64_t
+phys_bss_start	kernel/stivale2.h	/^    uint64_t phys_bss_start;$/;"	m	struct:stivale2_anchor	typeref:typename:uint64_t
+phys_load_addr	kernel/stivale2.h	/^    uint64_t phys_load_addr;$/;"	m	struct:stivale2_anchor	typeref:typename:uint64_t
+phys_stivale2hdr	kernel/stivale2.h	/^    uint64_t phys_stivale2hdr;$/;"	m	struct:stivale2_anchor	typeref:typename:uint64_t
+pmrs	kernel/stivale2.h	/^    struct stivale2_pmr pmrs[];$/;"	m	struct:stivale2_struct_tag_pmrs	typeref:struct:stivale2_pmr[]
+preference	kernel/stivale2.h	/^    uint64_t preference;$/;"	m	struct:stivale2_header_tag_any_video	typeref:typename:uint64_t
+processor_id	kernel/stivale2.h	/^    uint32_t processor_id;$/;"	m	struct:stivale2_smp_info	typeref:typename:uint32_t
+ptr	kernel/ssfn.h	/^    uint8_t *ptr;                       \/* pointer to the buffer *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:uint8_t *
+raster	kernel/ssfn.h	/^    uint64_t lookup, raster, blit, kern;\/* profiling accumulators *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:uint64_t
+rc	kernel/ssfn.h	/^    ssfn_chr_t *rc;                     \/* pointer to current character *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:ssfn_chr_t *
+red_mask_shift	kernel/stivale2.h	/^    uint8_t  red_mask_shift;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+red_mask_size	kernel/stivale2.h	/^    uint8_t  red_mask_size;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:typename:uint8_t
+revision	limine/limine-install.c	/^    uint32_t revision;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+rows	kernel/stivale2.h	/^    uint16_t rows;$/;"	m	struct:stivale2_struct_tag_terminal	typeref:typename:uint16_t
+rows	kernel/stivale2.h	/^    uint16_t rows;$/;"	m	struct:stivale2_struct_tag_textmode	typeref:typename:uint16_t
+rsdp	kernel/stivale2.h	/^    uint64_t rsdp;$/;"	m	struct:stivale2_struct_tag_rsdp	typeref:typename:uint64_t
+run	Makefile	/^run: $(ISO_IMAGE)$/;"	t
+s	kernel/ssfn.h	/^    const ssfn_font_t *s;               \/* explicitly selected font *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:const ssfn_font_t *
+server_ip	kernel/stivale2.h	/^    uint32_t server_ip;$/;"	m	struct:stivale2_struct_tag_pxe_server_info	typeref:typename:uint32_t
+signature	limine/limine-install.c	/^    char     signature[8];$/;"	m	struct:gpt_table_header	typeref:typename:char[8]	file:
+size	kernel/ssfn.h	/^    int size;                           \/* required size *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+size	kernel/ssfn.h	/^    uint32_t    size;                   \/* total size in bytes *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint32_t
+size	kernel/ssfn.h	/^   unsigned char  size[288];$/;"	m	struct:__anone0f6cf650608	typeref:typename:unsigned char[288]
+size	kernel/stivale2.h	/^    uint64_t size;$/;"	m	struct:stivale2_struct_tag_dtb	typeref:typename:uint64_t
+size_of_partition_entry	limine/limine-install.c	/^    uint32_t size_of_partition_entry;$/;"	m	struct:gpt_table_header	typeref:typename:uint32_t	file:
+size_t	kernel/ssfn.h	/^   typedef __SIZE_TYPE__ size_t;$/;"	t	typeref:typename:__SIZE_TYPE__
+smbios_entry_32	kernel/stivale2.h	/^    uint64_t smbios_entry_32;$/;"	m	struct:stivale2_struct_tag_smbios	typeref:typename:uint64_t
+smbios_entry_64	kernel/stivale2.h	/^    uint64_t smbios_entry_64;$/;"	m	struct:stivale2_struct_tag_smbios	typeref:typename:uint64_t
+smp_info	kernel/stivale2.h	/^    struct stivale2_smp_info smp_info[];$/;"	m	struct:stivale2_struct_tag_smp	typeref:struct:stivale2_smp_info[]
+ssfn_bbox	kernel/ssfn.h	/^int ssfn_bbox(ssfn_t *ctx, const char *str, int *w, int *h, int *left, int *top)$/;"	f	typeref:typename:int
+ssfn_buf_t	kernel/ssfn.h	/^} ssfn_buf_t;$/;"	t	typeref:struct:__anone0f6cf650208
+ssfn_chr_t	kernel/ssfn.h	/^} ssfn_chr_t;$/;"	t	typeref:struct:__anone0f6cf650408
+ssfn_dst	kernel/ssfn.h	/^ssfn_buf_t ssfn_dst;            \/* destination frame buffer *\/$/;"	v	typeref:typename:ssfn_buf_t
+ssfn_error	kernel/ssfn.h	/^#define ssfn_error(/;"	d
+ssfn_errstr	kernel/ssfn.h	/^const char *ssfn_errstr[] = { "",$/;"	v	typeref:typename:const char * []
+ssfn_font_t	kernel/ssfn.h	/^} __attribute__((packed)) ssfn_font_t;$/;"	t	typeref:struct:__anone0f6cf650108
+ssfn_free	kernel/ssfn.h	/^void ssfn_free(ssfn_t *ctx)$/;"	f	typeref:typename:void
+ssfn_glyph_t	kernel/ssfn.h	/^} ssfn_glyph_t;$/;"	t	typeref:struct:__anone0f6cf650308
+ssfn_load	kernel/ssfn.h	/^int ssfn_load(ssfn_t *ctx, const void *data)$/;"	f	typeref:typename:int
+ssfn_mem	kernel/ssfn.h	/^int ssfn_mem(ssfn_t *ctx)$/;"	f	typeref:typename:int
+ssfn_putc	kernel/ssfn.h	/^int ssfn_putc(uint32_t unicode)$/;"	f	typeref:typename:int
+ssfn_render	kernel/ssfn.h	/^int ssfn_render(ssfn_t *ctx, ssfn_buf_t *dst, const char *str)$/;"	f	typeref:typename:int
+ssfn_select	kernel/ssfn.h	/^int ssfn_select(ssfn_t *ctx, int family, const char *name, int style, int size)$/;"	f	typeref:typename:int
+ssfn_src	kernel/ssfn.h	/^ssfn_font_t *ssfn_src;          \/* font buffer with an inflated bitmap font *\/$/;"	v	typeref:typename:ssfn_font_t *
+ssfn_t	kernel/ssfn.h	/^} ssfn_t;$/;"	t	typeref:struct:__anone0f6cf650508
+ssfn_text	kernel/ssfn.h	/^ssfn_buf_t *ssfn_text(ssfn_t *ctx, const char *str, unsigned int fg)$/;"	f	typeref:typename:ssfn_buf_t *
+ssfn_utf8	kernel/ssfn.h	/^uint32_t ssfn_utf8(char **s)$/;"	f	typeref:typename:uint32_t
+stack	kernel/kernel.c	/^static uint8_t stack[4096];$/;"	v	typeref:typename:uint8_t[4096]	file:
+stack	kernel/stivale2.h	/^    uint64_t stack;$/;"	m	struct:stivale2_header	typeref:typename:uint64_t
+starting_lba	limine/limine-install.c	/^    uint64_t starting_lba;$/;"	m	struct:gpt_entry	typeref:typename:uint64_t	file:
+stivale2_anchor	kernel/stivale2.h	/^struct stivale2_anchor {$/;"	s
+stivale2_get_tag	kernel/kernel.c	/^void *stivale2_get_tag(struct stivale2_struct *stivale2_struct, uint64_t id) {$/;"	f	typeref:typename:void *
+stivale2_header	kernel/stivale2.h	/^struct stivale2_header {$/;"	s
+stivale2_header_tag_any_video	kernel/stivale2.h	/^struct stivale2_header_tag_any_video {$/;"	s
+stivale2_header_tag_framebuffer	kernel/stivale2.h	/^struct stivale2_header_tag_framebuffer {$/;"	s
+stivale2_header_tag_smp	kernel/stivale2.h	/^struct stivale2_header_tag_smp {$/;"	s
+stivale2_header_tag_terminal	kernel/stivale2.h	/^struct stivale2_header_tag_terminal {$/;"	s
+stivale2_mmap_entry	kernel/stivale2.h	/^struct stivale2_mmap_entry {$/;"	s
+stivale2_module	kernel/stivale2.h	/^struct stivale2_module {$/;"	s
+stivale2_pmr	kernel/stivale2.h	/^struct stivale2_pmr {$/;"	s
+stivale2_smp_info	kernel/stivale2.h	/^struct stivale2_smp_info {$/;"	s
+stivale2_struct	kernel/stivale2.h	/^struct stivale2_struct {$/;"	s
+stivale2_struct_tag_cmdline	kernel/stivale2.h	/^struct stivale2_struct_tag_cmdline {$/;"	s
+stivale2_struct_tag_dtb	kernel/stivale2.h	/^struct stivale2_struct_tag_dtb {$/;"	s
+stivale2_struct_tag_edid	kernel/stivale2.h	/^struct stivale2_struct_tag_edid {$/;"	s
+stivale2_struct_tag_efi_system_table	kernel/stivale2.h	/^struct stivale2_struct_tag_efi_system_table {$/;"	s
+stivale2_struct_tag_epoch	kernel/stivale2.h	/^struct stivale2_struct_tag_epoch {$/;"	s
+stivale2_struct_tag_firmware	kernel/stivale2.h	/^struct stivale2_struct_tag_firmware {$/;"	s
+stivale2_struct_tag_framebuffer	kernel/stivale2.h	/^struct stivale2_struct_tag_framebuffer {$/;"	s
+stivale2_struct_tag_kernel_file	kernel/stivale2.h	/^struct stivale2_struct_tag_kernel_file {$/;"	s
+stivale2_struct_tag_kernel_slide	kernel/stivale2.h	/^struct stivale2_struct_tag_kernel_slide {$/;"	s
+stivale2_struct_tag_memmap	kernel/stivale2.h	/^struct stivale2_struct_tag_memmap {$/;"	s
+stivale2_struct_tag_mmio32_uart	kernel/stivale2.h	/^struct stivale2_struct_tag_mmio32_uart {$/;"	s
+stivale2_struct_tag_modules	kernel/stivale2.h	/^struct stivale2_struct_tag_modules {$/;"	s
+stivale2_struct_tag_pmrs	kernel/stivale2.h	/^struct stivale2_struct_tag_pmrs {$/;"	s
+stivale2_struct_tag_pxe_server_info	kernel/stivale2.h	/^struct stivale2_struct_tag_pxe_server_info {$/;"	s
+stivale2_struct_tag_rsdp	kernel/stivale2.h	/^struct stivale2_struct_tag_rsdp {$/;"	s
+stivale2_struct_tag_smbios	kernel/stivale2.h	/^struct stivale2_struct_tag_smbios {$/;"	s
+stivale2_struct_tag_smp	kernel/stivale2.h	/^struct stivale2_struct_tag_smp {$/;"	s
+stivale2_struct_tag_terminal	kernel/stivale2.h	/^struct stivale2_struct_tag_terminal {$/;"	s
+stivale2_struct_tag_textmode	kernel/stivale2.h	/^struct stivale2_struct_tag_textmode {$/;"	s
+stivale2_struct_vmap	kernel/stivale2.h	/^struct stivale2_struct_vmap {$/;"	s
+stivale2_tag	kernel/stivale2.h	/^struct stivale2_tag {$/;"	s
+stivale_hdr	kernel/kernel.c	/^static struct stivale2_header stivale_hdr = {$/;"	v	typeref:struct:stivale2_header	file:
+string	kernel/stivale2.h	/^    char string[STIVALE2_MODULE_STRING_SIZE];$/;"	m	struct:stivale2_module	typeref:typename:char[]
+style	kernel/ssfn.h	/^    int style;                          \/* required style *\/$/;"	m	struct:__anone0f6cf650508	typeref:typename:int
+system_table	kernel/stivale2.h	/^    uint64_t system_table;$/;"	m	struct:stivale2_struct_tag_efi_system_table	typeref:typename:uint64_t
+t	kernel/ssfn.h	/^    uint8_t t;                          \/* type and overlap *\/$/;"	m	struct:__anone0f6cf650408	typeref:typename:uint8_t
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_header_tag_any_video	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_header_tag_framebuffer	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_header_tag_smp	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_header_tag_terminal	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_cmdline	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_dtb	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_edid	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_efi_system_table	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_epoch	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_firmware	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_framebuffer	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_kernel_file	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_kernel_slide	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_memmap	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_mmio32_uart	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_modules	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_pmrs	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_pxe_server_info	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_rsdp	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_smbios	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_smp	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_terminal	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_tag_textmode	typeref:struct:stivale2_tag
+tag	kernel/stivale2.h	/^    struct stivale2_tag tag;$/;"	m	struct:stivale2_struct_vmap	typeref:struct:stivale2_tag
+tags	kernel/stivale2.h	/^    uint64_t tags;$/;"	m	struct:stivale2_header	typeref:typename:uint64_t
+tags	kernel/stivale2.h	/^    uint64_t tags;$/;"	m	struct:stivale2_struct	typeref:typename:uint64_t
+target_stack	kernel/stivale2.h	/^    uint64_t target_stack;$/;"	m	struct:stivale2_smp_info	typeref:typename:uint64_t
+term_write	kernel/stivale2.h	/^    uint64_t term_write;$/;"	m	struct:stivale2_struct_tag_terminal	typeref:typename:uint64_t
+terminal_hdr_tag	kernel/kernel.c	/^static struct stivale2_header_tag_terminal terminal_hdr_tag = {$/;"	v	typeref:struct:stivale2_header_tag_terminal	file:
+type	kernel/ssfn.h	/^    uint8_t     type;                   \/* font family and style *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t
+type	kernel/stivale2.h	/^    uint32_t type;$/;"	m	struct:stivale2_mmap_entry	typeref:typename:uint32_t
+uint16_t	kernel/ssfn.h	/^typedef unsigned short int  uint16_t;$/;"	t	typeref:typename:unsigned short int
+uint32_t	kernel/ssfn.h	/^typedef unsigned int        uint32_t;$/;"	t	typeref:typename:unsigned int
+uint64_t	kernel/ssfn.h	/^typedef unsigned long int   uint64_t;$/;"	t	typeref:typename:unsigned long int
+uint8_t	kernel/ssfn.h	/^typedef unsigned char       uint8_t;$/;"	t	typeref:typename:unsigned char
+underline	kernel/ssfn.h	/^    uint8_t     underline;              \/* position of under line in grid pixels *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t
+unique_partition_guid	limine/limine-install.c	/^    uint64_t unique_partition_guid[2];$/;"	m	struct:gpt_entry	typeref:typename:uint64_t[2]	file:
+unused	kernel/stivale2.h	/^    uint16_t unused;$/;"	m	struct:stivale2_struct_tag_textmode	typeref:typename:uint16_t
+unused	kernel/stivale2.h	/^    uint32_t unused;$/;"	m	struct:stivale2_mmap_entry	typeref:typename:uint32_t
+unused	kernel/stivale2.h	/^    uint32_t unused;$/;"	m	struct:stivale2_struct_tag_smp	typeref:typename:uint32_t
+value	kernel/ssfn.h	/^   uint16_t value[288];$/;"	m	struct:__anone0f6cf650608	typeref:typename:uint16_t[288]
+w	kernel/ssfn.h	/^    int16_t w;                          \/* width (positive: ARGB, negative: ABGR pixels) *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:int16_t
+w	kernel/ssfn.h	/^    uint8_t w;                          \/* width *\/$/;"	m	struct:__anone0f6cf650408	typeref:typename:uint8_t
+width	kernel/ssfn.h	/^    uint8_t     width;                  \/* overall width of the font *\/$/;"	m	struct:__anone0f6cf650108	typeref:typename:uint8_t
+x	kernel/ssfn.h	/^    int16_t x;                          \/* cursor x *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:int16_t
+x	kernel/ssfn.h	/^    uint8_t x;                          \/* advance x *\/$/;"	m	struct:__anone0f6cf650408	typeref:typename:uint8_t
+x	kernel/ssfn.h	/^    uint8_t x;                          \/* advance x, scaled to size *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t
+y	kernel/ssfn.h	/^    int16_t y;                          \/* cursor y *\/$/;"	m	struct:__anone0f6cf650208	typeref:typename:int16_t
+y	kernel/ssfn.h	/^    uint8_t y;                          \/* advance y *\/$/;"	m	struct:__anone0f6cf650408	typeref:typename:uint8_t
+y	kernel/ssfn.h	/^    uint8_t y;                          \/* advance y, scaled to size *\/$/;"	m	struct:__anone0f6cf650308	typeref:typename:uint8_t
+z_distance	kernel/ssfn.h	/^   _ssfn__zhuffman z_length, z_distance;$/;"	m	struct:__anone0f6cf650708	typeref:typename:_ssfn__zhuffman
+z_length	kernel/ssfn.h	/^   _ssfn__zhuffman z_length, z_distance;$/;"	m	struct:__anone0f6cf650708	typeref:typename:_ssfn__zhuffman
+zbuffer	kernel/ssfn.h	/^   unsigned char *zbuffer;$/;"	m	struct:__anone0f6cf650708	typeref:typename:unsigned char *
+zout	kernel/ssfn.h	/^   char *zout;$/;"	m	struct:__anone0f6cf650708	typeref:typename:char *
+zout_end	kernel/ssfn.h	/^   char *zout_end;$/;"	m	struct:__anone0f6cf650708	typeref:typename:char *
+zout_start	kernel/ssfn.h	/^   char *zout_start;$/;"	m	struct:__anone0f6cf650708	typeref:typename:char *

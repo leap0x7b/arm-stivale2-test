@@ -16,11 +16,13 @@ INTERNALLDFLAGS :=         \
 	-ztext
 
 INTERNALCFLAGS  :=       \
-	-I.                  \
-	-std=gnu11           \
-	-ffreestanding       \
-	-fno-stack-protector \
-	-fno-pic -fpie       
+	-I.                   \
+	-std=gnu11            \
+	-ffreestanding        \
+	-fno-stack-protector  \
+	-fno-pic -fpie        \
+	-mcpu=cortex-a57+nofp+nosimd \
+	-mno-crypto
 #	-mno-80387           \
 #	-mno-mmx             \
 #	-mno-3dnow           \
